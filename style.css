@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    background-color: rgb(227, 226, 226);
+}
+
+header {
+    margin:30px 60px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    margin-left: 60px;
+}
+
+.nav-bar ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-right: 400px;
+}
+
+.nav-bar ul li {
+    margin-right: 50px;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color:rgb(184, 193, 184);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nav-bar ul .active a {
+    color: rgb(61, 103, 61);
+}
+
+.sign {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+
+.sign a {
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.sign-up {
+    margin-left: 50px;
+}
+
+.sign a:first-child{
+    color:rgb(61, 103, 61);
+}
+.sign-up {
+    color: #fff;
+    padding: 16px 30px;
+    background-color: rgb(61, 103, 61);
+    border-radius: 8px;
+}
+
+.content {
+    margin:40px 200px;
+}
+
+.content .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .row .col1 h1 {
+    font-size: 70px;
+    color:rgb(66, 89, 66);
+}
+
+.content .row .col1 p {
+    padding-top: 20px;
+    color: rgb(184, 193, 184);
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+.content .row .col1 a {
+    color: #fff;
+    padding: 16px 30px;
+    background-color: rgb(61, 103, 61);
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.cards-img {
+    background-color: #fff;
+    text-align: center;
+    align-self: center;
+}
+    
+.service {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding:40px 200px;
+    align-items: center;
+}
+
+.service h1 {
+    font-size: 40px;
+    color:rgb(66, 89, 66);
+}
+
+.service p {
+    font-size: 20px;
+    color: rgb(184, 193, 184);
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+    padding:40px 160px;
+}
+
+.cards .card {
+    border: 2px solid rgb(168, 166, 166);
+    border-radius: 8px;
+    width: 300px;   
+    height: 150px;
+    padding: 20px;
+}
+
+.card img {
+    padding: 5px;
+}
+
+.card h2 {
+    padding-bottom: 8px;
+    color:rgb(66, 89, 66);
+}
+
+.card p {
+    color: rgb(184, 193, 184);
+    font-weight: bold;
+}
